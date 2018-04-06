@@ -29,7 +29,7 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Poor Story', cursive;
+    font-family:  'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
     color: #333;
@@ -78,4 +78,13 @@ a {
 .main > p {
 	text-align: center;
 	padding: 50px 20px;
+
+}
+.main{
+	font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 500px) {
+	.container > header h1{
+		font-size: 120px;
+	}
 }
