@@ -29,7 +29,7 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: 'Poor Story', cursive;
     font-weight: 300;
     font-size: 15px;
     color: #333;
@@ -56,12 +56,12 @@ a {
 }
 
 .container > header {
-	padding: 60px 30px 50px;
+	padding: 100px 30px 50px;
 	text-align: center;
 }
 
 .container > header h1 {
-	font-size: 34px;
+	font-size: 204px;
 	line-height: 38px;
 	margin: 0 auto;
 	font-weight: 700;
@@ -72,6 +72,7 @@ a {
 	display: block;
 	font-size: 20px;
 	font-weight: 300;
+	padding-top: 80px;
 }
 
 .main > p {
