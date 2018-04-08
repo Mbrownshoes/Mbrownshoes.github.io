@@ -37,6 +37,9 @@ body {
     overflow-x: hidden;
 }
 
+span{
+	font-family: 'Roboto', sans-serif;
+}
 a {
 	color: #555;
 	text-decoration: none;
