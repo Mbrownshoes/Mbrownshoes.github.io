@@ -424,7 +424,7 @@ ga('send', 'pageview');
 					create : function() {
 						this.$title = $( '<h3></h3>' );
 						this.$description = $( '<p></p>' );
-						this.$href = $( '<a href="#" target="_blank">Let\x27s see it already</a>' );
+						this.$href = $( '<a href="#" target="_blank">Let\x27s see it</a>' );
 						this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 						this.$loading = $( '<div class="og-loading"></div>' );
 						this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
@@ -463,7 +463,7 @@ ga('send', 'pageview');
 						this.$title.html( eldata.title );
 						this.$description.html( eldata.description );
 						if(eldata.buttontext) this.$href.text(eldata.buttontext);
-						else this.$href.text("Let\x27s see it already")
+						else this.$href.text("Let\x27s see it")
 
 						if (eldata.href) {
 							this.$href.attr( 'href', eldata.href );
